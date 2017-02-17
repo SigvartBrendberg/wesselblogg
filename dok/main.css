@@ -1,0 +1,65 @@
+#main{
+	margin-left:10%;
+	margin-right:10%;
+	/*border-radius:5px;*/
+	/*border-color:blue;*/
+	border-style:solid;
+	/*border-width:3px;*/
+	border:double #000000;
+	background-color:#FFFFFF;
+}
+#nav{
+	width:100px;
+	float:left;
+	border-style:solid;
+	border:double #000000;
+	padding-right:20px;
+	background-color:#BBBBFF;
+	margin-left:10px;
+}
+#kommentarar{
+	margin-bottom:20px;
+};
+footer{
+	font-size:50%;
+	text-align:center;
+	margin-top:40px;
+}
+h1,#nav{
+	font-family: "Century Gothic", "Avant Garde Gothic", "Avant Garde", "URW Gothic L", helvetica, sans-serif;
+}
+#head{
+	text-align:center;
+}
+li > a{
+	background-color:#aaaadd;
+}
+#head > i{
+	font-family: "Century Schoolbook", Century, "new century schoolbook", "Century Schoolbook L", times, serif;
+	font-size:70%;
+}
+#hovud{
+	margin-left:150px;
+}
+#pstcnt{
+	text-align:center;
+}
+input{
+	width:50px;
+}
+.avatar{
+	float:left;
+	margin:5px;
+	border-style:solid;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+}
+.komLekam{
+}
+.namn{
+	font-weight: bold;
+	padding-top:10px;
+}
+.child1{
+	margin-left:35px;
+}

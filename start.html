@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WesselBlogg</title>
+<style>
+h1,p{
+	font-family: "Century Gothic", "Avant Garde Gothic", "Avant Garde", "URW Gothic L", helvetica, sans-serif;
+}
+div{
+	margin-top:20%;
+	margin-left:25%;
+}
+p{
+	font-size:125%;
+}
+noscript,.old{
+	color:red;
+}
+</style>
+</head>
+<body>
+<div>
+	<h1>WesselBlogg</h1>
+	<h3>Før du startar:</h3>
+	<ul>
+		<li>Skru på lyd!
+			Test lyd (den viktigaste biten av prosjektet):<br>
+			<audio controls>
+				<source src="media/test.ogg" type="audio/ogg">
+				<span class="old">
+Nettlesaren din støttar ikkje moderne lydelement.<br>
+Oppgrader eller bruk ein annan nettlesar! Lyd er ein viktig del av prosjektet
+				</span>
+			</audio>
+		</li>
+		<li>Bruk ein rimeleg ny nettlesar</li>
+<!--[if lt IE 10]>
+Du har ein gamal nettlesar. Det er ikkje sikkert alt virkar med mindre du har ein <a href="https://www.mozilla.org/nn-NO/firefox/new/">moderne nettlesar</a>
+<![endif]-->
+		<li>Ha javascript aktivert: <noscript> Javascript er ikkje på! <a href="http://www.enable-javascript.com/">Skru på javascript</a></noscript> <span id="test"></span></li>
+		<li>Alle plassar det skal vera lyd er markert med ***</li>
+	</ul>
+	<p>Alt klart? <a href="dok/index.html">Kom inn!</a></p>
+	<p>Historisk note: Ikkje alle folka eg lagar rollespel av levde på same tid. Ludvig Holberg var til dømes allereie dau då Wessel var ferdig på latinskulen. Dette reknar eg som mindre viktig</p>
+	<p>Språk: Dette er før nynorsken men eg nyttar ei moderne språkdrakt di dette jo er ei norskoppgåve. Johan Herman Wessel snakka forresten ikkje trøndersk heller.</p>
+</div>
+<script>
+document.getElementById("test").innerHTML = "<img src=\"media/green.svg\" width=\"20\"><span style='color:green;'>Automatisk oppdaga</span>";
+</script>
+</body>
+</html>
